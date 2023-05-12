@@ -1,0 +1,67 @@
+.ceFooterTeaser{
+    position: relative;
+    display: flex;
+    > .imageTeaser{
+        width: 100%;
+        height: 290px;
+    }
+    > .logo-title-link{
+        position: absolute;
+        flex-direction: column;
+        background-color: #d8d5d5; 
+        left: 390px;
+        width: 214px;
+        height: 290px;
+        > .logo{
+            height: 81px;
+            padding-top: 11px;
+        }
+        > .header-ce-teaser{
+             color: #006982;
+             padding: 35px 5px 5px 5px;
+             font-size: 22px;
+             font-weight: 500;
+             margin-left: 13px;
+        }
+        > .link-teaser{
+            display: flex;
+            background-color: white;
+            width: 180px;
+            height: 30px;
+            align-items: center;
+            border-radius: 8px;
+            margin-left: 13px;
+            > .arrow::before {
+                content: '\2192';
+                margin-left: 56px;
+                font-size: 20px;
+                color: #006982;
+              }
+            > .link-teaser-text{
+                color: #006982;
+            }
+        }
+    }
+    > .evenInfo{
+        position: absolute;
+        flex-direction: column;
+        left: 630px;
+        top: 14px;
+        > .evenInfo-date{
+            color: white;
+        }
+        > .evenInfo-title{
+            height: 118px;
+            width: 601px;
+            color: #F5DC50;
+            font-family: "Gill Sans Medium";
+            font-size: 51px;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 59px;
+            text-shadow: 0 4px 8px 0 #006982;
+        }
+    }
+    
+}
+

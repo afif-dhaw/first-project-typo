@@ -1,0 +1,23 @@
+{
+    "name": "softtodo/training",
+    "type": "typo3-cms-extension",
+    "description": "Training Formation",
+    "homepage": "http://home.de",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^10.4",
+        "typo3/cms-rte-ckeditor": "^10.4",
+        "typo3/cms-fluid-styled-content": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softtodo\\Training\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "training"
+        }
+    }
+}

@@ -1,0 +1,366 @@
+nav {
+    background-color: #f7f8f8;
+    padding: 24px 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+img.logo {
+    height: 32px;
+}
+
+img.icon {
+    height: 16px;
+    width: 16px;
+}
+
+p.lang {
+    height: 15px;
+    width: 48px;
+    color: #52565F;
+    font-family: "Gill Sans Medium";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+
+hr {
+    height: 2px;
+    background-color: #82B4C3;
+    border-style: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    font-family: 'Gill Sans Medium';
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5F696B;
+}
+
+button {
+    background-color: #41646E;
+    border-style: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 0 0 4px 4px;
+    font-family: 'Gill Sans Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
+
+.active {
+    // display: inline-block;
+    border-bottom: 8px solid rgb(175, 42, 42);
+
+}
+
+
+// ##################################################
+// ##################################################
+// ##################################################
+// ### VERSION CLEAN ###
+@font-face {
+    font-family: 'Gill Sans Regular';
+    src: url(../Fonts/GillSansRegular.otf);
+}
+
+@font-face {
+    font-family: 'Gill Sans Medium';
+    src: url(../Fonts/GillSansMedium.otf);
+}
+
+@font-face {
+    font-family: 'Gill Sans Bold';
+    src: url(../Fonts/GillSansBold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+footer {
+    background-color: #5F696B;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: auto;
+    padding: 24px 0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.col {
+    border-radius: 8px;
+    width: 100%;
+    height: 256px;
+}
+
+.col-8 {
+    flex: 8;
+    width: 100%;
+}
+
+.col-4 {
+    flex: 4;
+    width: 100%;
+    position: relative;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    border-radius: 8px;
+    border: 1px solid #d0d1d4;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 40px;
+    height: 100%;
+}
+
+.logo-subline {
+    height: 56px;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.newsletter-heading {
+    color: white;
+    font-family: 'Gill Sans Bold';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.newsletter-email-card {
+    display: flex;
+    align-content: space-between;
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.newsletter-email,
+.newsletter-submit {
+    background-color: transparent;
+    color: #006982;
+    font-family: 'Gill Sans Medium';
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.separator {
+    box-sizing: border-box;
+    height: 28px;
+    width: 1px;
+    border: 1px solid #CDD5EA;
+}
+
+.checkbox-container {
+    display: flex;
+    gap: 8px;
+}
+
+.checkbox-label {
+    color: white;
+    font-family: 'Gill Sans Medium';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dia-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.dia-logo {
+    position: absolute;
+    height: 56px;
+    top: 24px;
+    left: 24px;
+}
+
+.dia-heading {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    font-family: 'Gill Sans Bold';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dia-cta-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px 24px;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    gap: 16px;
+    width: 216px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dia-cta-submit {
+    border: none;
+    outline: none;
+    color: #006982;
+    font-family: 'Gill Sans Medium';
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.BundesverbandText {
+    width: 100%;
+    color: #FCFCFC;
+    font-family: "Gill Sans Medium";
+    font-size: 13px;
+    //font-weight: 700;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding-top: 49px;
+}
+
+.socialMediaText {
+    height: 18px;
+    width: auto;
+    color: #FCFCFC;
+    font-family: "Gill Sans";
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.socialMediaIcons {
+    padding-bottom: 55px;
+}
+
+.membershipDirection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.memberShipText {
+    height: 15px;
+    width: 165px;
+    color: #E7EBF4;
+    font-family: "Gill Sans";
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 15px;
+    padding-top: 49px;
+}
+
+.membershipDirection {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeImageMemberShip {
+    height: 20%;
+    width: 20%;
+}
+
+.membershipImage {
+    display: flex;
+    grid-gap: 10%;
+
+}
+
+.memberShipImageBgaWetwerb {
+    display: flex;
+    grid-gap: 10%;
+}
+
+.base-footer {
+    margin-top: 16px;
+	background-color: #293639;
+}
+
+.base-footer .container {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.base-footer .container p {
+    color: white;
+    font-family: 'Gill Sans Medium';
+    font-size: 16px;
+    font-weight: 500;
+}
+.linkedin {
+    height: 16px;
+    width: 17.01px;
+    margin: 10px 10px 11px 10px;
+    // border-radius: 50%;
+    // background-color: #3E4A4C;
+}
+.twitter {
+    height: 17px;
+    width: 21.01px;
+    margin: 10px 10px 10px 10px;
+    // border-radius: 50%;
+    // background-color: #3E4A4C;
+}
+
+.xing {
+    height: 20px;
+    width: 17.01px;
+    margin: 10px 10px 10px 10px;
+    // border-radius: 50%;
+    // background-color: #3E4A4C;
+}
+
+
+// ### VERSION CLEAN ###
+// ##################################################
+// ##################################################
+// ##################################################

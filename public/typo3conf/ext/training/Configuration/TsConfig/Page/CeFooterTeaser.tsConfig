@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+	elements {
+		training_ceFooterTeaser {
+				iconIdentifier = ce-hero
+				title = CE Footer Teaser
+				description = CE Footer Element
+				tt_content_defValues {
+						CType = training_ceFooterTeaser
+				}
+		}
+	}
+	show := addToList(training_ceFooterTeaser)
+}

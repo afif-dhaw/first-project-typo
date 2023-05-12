@@ -1,0 +1,22 @@
+<div class="ceFooterTeaser">
+    <f:for each="{image}" as="img">
+        <f:image class="imageTeaser" image="{img}" />
+    </f:for>
+    
+    <div class="logo-title-link">
+        <f:for each="{media}" as="media">
+            <f:image class="logo" image="{media}" />
+        </f:for>
+        <h3 class="header-ce-teaser">{data.header}</h3>
+        <div class="link-teaser">
+            <a href="#" class="link-teaser-text">{data.header_link}</a>
+            <div class="arrow"></div>
+        </div>
+    </div>
+    <div class="evenInfo">
+        <div class="evenInfo-date">
+        <f:format.date format="%d %B">{data.startdate}</f:format.date> bis <f:format.date format="%d %B">{data.enddate}</f:format.date>
+        </div>
+        <h3 class="evenInfo-title">{data.subheader}</h3>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+lib.contentElement {
+    templateRootPaths.200 = EXT:training/Resources/Private/Templates/ContentElements
+    partialRootPaths.200 = EXT:training/Resources/Private/Partials/
+    layoutRootPaths.200 = EXT:training/Resources/Private/Layout/
+}

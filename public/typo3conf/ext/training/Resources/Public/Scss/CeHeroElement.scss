@@ -1,0 +1,33 @@
+.ce-hero-element-container{
+    display: flex;
+    flex-direction: column;
+    > .ce-hero-element-header {
+        height: 98px;
+        width: 613px;
+        color: #41646E;
+        font-family: "Gill Sans Medium";
+        font-size: 41px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 49px;
+        padding-left: 386px;
+
+    }    
+    > .ce-hero-element-image {
+        margin-right: 10px;
+        > .image{
+            width: 80%;
+            height: 80%;
+        }
+   
+    }
+    > .ce-hero-element-description {
+        height: 200px;
+        width: 800px;
+        color: #5F696B;
+        font-family: "Gill Sans Medium";
+        font-size: 21px;
+        letter-spacing: 0;
+        margin-left: 390px;
+    }
+}

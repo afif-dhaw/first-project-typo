@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+	elements {
+		training_ceHeroElement {
+				iconIdentifier = ce-hero
+				title = CE Hero Element
+				description = CE Hero Element
+				tt_content_defValues {
+						CType = training_ceHeroElement
+				}
+		}
+	}
+	show := addToList(training_ceHeroElement)
+}
